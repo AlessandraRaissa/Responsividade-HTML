@@ -1,0 +1,123 @@
+/* Pra dispositivos que tem uma largura mínima de 768 pixels. Tablets,  por exemplo. */
+
+@media screen and (min-width: 768px) {   
+    p {
+        color: rgb(200,0,0);
+        font-family: 'Space Mono', monospace;
+    }
+    h1{
+        font-family: 'Space Mono', monospace;
+        text-align: center;
+        font-size: 400%;
+    }
+    h2{
+        font-family: 'Space Mono', monospace;
+        text-align: center;
+        font-size: 400%;
+        color: crimson;
+    }
+    .wow{
+        text-align: center;
+        font-size: 200%;
+        color: darkorange;
+    }
+    .wew{
+        display: flex;
+        text-align: center;
+        font-size: 200%;
+        color: rgb(7, 142, 72); 
+        font-family: 'Space Mono', monospace;
+    }
+    .menu{
+        padding: 20px;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,86,9,1) 32%, rgba(0,212,255,1) 100%);
+    }
+    .fim{
+        background: rgb(10,190,94);
+        background: radial-gradient(circle, rgba(10,190,94,0.8380602240896359) 0%, rgba(78,51,5,0.8212535014005602) 100%);
+        color: aliceblue;
+    }
+}
+/*	Com uma largura mínima de 992 pixels. Monitores por exemplo. */
+
+@media screen and (min-width: 992px) {  
+    p {
+        color: rgb(0,200,0);
+        font-family: 'Staatliches', cursive;
+    }
+    h1{
+        font-family: 'Staatliches', cursive;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 400%;
+    }
+    h2{
+        font-family: 'Staatliches', cursive;
+        color: rgb(255, 106, 0);
+        text-align: center;
+        font-size: 400%;
+    }
+    .wow{
+        text-align: center;
+        font-size: 200%;
+        color: rgb(0, 255, 89);
+    }
+    .wew{
+        display: flex;
+        text-align: center;
+        font-size: 200%;
+        color: rgb(85, 94, 156); 
+        font-family: 'Staatliches', cursive;
+    }
+    .menu{
+        padding: 20px;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,71,64,1) 36%, rgba(93,0,255,1) 100%);
+    }
+    .fim{
+        background: rgb(23,29,62);
+        background: radial-gradient(circle, rgba(23,29,62,0.8380602240896359) 0%, rgba(252,186,70,0.8212535014005602) 100%);
+    }
+}
+
+/* Dispositivos com largura mínima de 1200 pixels. Por exemplo TVs. */
+@media screen and (min-width: 1200px) { 
+    p {color: rgb(0,0,200);
+        font-family: 'Press Start 2P', cursive;
+    }
+    h1{
+        font-family: 'Press Start 2P', cursive;
+        color: aquamarine;
+        text-align: center;
+        font-size: 400%;
+    }
+    h2{
+        font-family: 'Press Start 2P', cursive;
+        color: rgb(116, 27, 92);
+        text-align: center;
+        font-size: 400%;
+    }
+    .wow{
+        text-align: center;
+        font-size: 200%;
+        color: rgb(32, 14, 39);
+    }
+    .wew{
+        display: flex;
+        text-align: center;
+        font-size: 200%;
+        color: rgb(181, 60, 16); 
+        font-family: 'Press Start 2P', cursive;
+    }
+    .menu{
+        padding: 20px;
+        background: rgb(15,92,53);
+        background: linear-gradient(90deg, rgba(15,92,53,1) 0%, rgba(126,54,77,1) 39%, rgba(24,182,119,1) 100%);
+    }
+    .fim{
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        color:rgb(113, 70, 9);
+    }
+}
